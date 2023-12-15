@@ -1,7 +1,11 @@
 # Serverless - AWS Node.js Typescript
-Projeto de integração de api utilizando serverless aws com typescript
+Projeto de integração de api utilizando serverless AWS com typescript
 - Inicialização do projeto.
 - Instalar dependencias que estão no arquivo package.json "npm install"
+  
+- Instrução de configuração de usuário para acessar os recursos da AWS:
+       Rodar o comando "sls config credentials -o --provider aws --key=CHAVEDEACESSO" --secret CHAVEDEACESSOSECRETA
+  
 - Para inicializar o serverless, existe um script dentro do package.json "npm start" e para modificações "serverless deploy --stage dev"
 - O projeto é baseado no conceito de clean architecture, utilizando a separação entre aplicação, domínio e infraestrutura.
 - Quando o serverless rodar, ele mostrará as apis que estão expostas para funcionamento.
